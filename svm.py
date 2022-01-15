@@ -17,7 +17,7 @@ class Description :
     def gen_dot(self) :
         self.x = self._xcount / self._len
         self.y = self._ycount / self._len
-    def parse(self) :
+    def parse(self) :                       #parse paragraphs into coordinates
         for word in self._words :
                 if word in ['project', 'space', 'group', 'crowd', 'user', 'field', 
                 'jira', 'confluence', 'bitbucket', 'workflow', 'dashboard', 'epics', 'stories'] : #subject of request on x
@@ -38,7 +38,7 @@ class Seperator :
     def __init__(self, doc, model) :
         self.doc = doc
         self.model = model
-    def parse_text(self) :
+    def parse_text(self) :                  # wrapping parsed.txt file
         try :
             des = open(self.doc)
         except :
@@ -58,7 +58,7 @@ class Seperator :
             #print('%g, %g\n' % (para.x, para.y))
         out.close()
         
-    def yay_or_nay(self, parsed_doc) :
+    def yay_or_nay(self, parsed_doc) :      # generating category labels for new data
         parsed = open(parsed_doc)
         out = open(parsed_doc[:parsed_doc.find('.txt')] + '_results.txt', 'w')
         for pair in parsed :
@@ -70,7 +70,7 @@ class Seperator :
           else : out.write('DO\n')
         out.close()
     
-#data from test.txt
+#training data
 x = np.array([0.2,0.0434783,0.33333,0.0652174,0.1111111,0,0.1666667,-0.0909091,0,-0.25,0.0294118,0.04])
 y = np.array([0.1,0.0434783,-0.33333,0,0,0.22222,-0.375,-0.136364,-0.25,0.125,-0.323529,-0.08])
                 
