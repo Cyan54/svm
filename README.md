@@ -1,6 +1,6 @@
 # SVM categorizer
 
-SVM machine pre-trained with limited data. This was mainly to explore the possibility of using this kind of model to categorize paragraphs of text, cutting down on time used for manual review.
+SVM machine pre-trained with limited data. This was mainly written to explore the possibility of using this kind of model to categorize paragraphs of text, cutting down on time used for manual review.
 If needed, users can change the contents of parse() to suit their categorization needs.
 
 ## Technologies
