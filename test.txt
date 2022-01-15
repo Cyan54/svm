@@ -1,0 +1,31 @@
+New project request for Jira, called New SERN Space, hopefully with handle NIFPRS if possible? Standard Kanban board software project.
+
+Feature modification request for project IFPRS 17:
+change dropdown to include "None" option
+Also, my dataset importation is not working, gives error message. 
+
+Jira, confluence and bitbucket access request for Dave Keshpik.
+
+Our team's dashboard that we use for getting a big picture of our tasks suddenly stopped showing several epics? 
+I wanted to know how we could fix this as soon as possible, as we need to use the dashboard daily. Specifically NAD-01 and NAD-68 are missing!
+
+The issue view on our project doesn't show the Assigner field we had made on our last ticket?
+
+We want to delete issues POI-35 to POI-54, thanks!
+
+
+John Numpek needs access to our Jira project DASSC, and he needs access to our Confluence space DASSC-C as well. 
+Please provide him access
+
+I want to give access to our TAMP page to some of our associates without a Jira account. Below are their emails:
+
+Can Samatha Hills get access to ________ Jenkins job? She needs it for work with our team this week. thanks
+
+New repository needed under P&C project named work_repo.
+
+New user Dave Keshpik coming in to our team on Monday, needs all the same access as me, including admin access on our KDS bitbucket repository
+and normal access on our KDS jira project.
+
+I used to have permission to see pages on the NADIS space, but last week I suddenly couldn't get in? Can you give me access?
+
+
